@@ -12,7 +12,11 @@ class ApiError extends Error {
     this.success = false;
     this.errors = errors;
 
+<<<<<<< HEAD
     if (stack) {
+=======
+    if (statck) {
+>>>>>>> 581c25022ba5b3f8ed367a283fe8a92825ef8251
       this.stack = stack;
     } else {
       Error.captureStackTrace(this, this.constructor);
